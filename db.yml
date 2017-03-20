@@ -1,0 +1,6 @@
+driver: pdo_mysql
+host: 127.0.0.1
+port: null
+dbname: simple_search
+user: root
+password: null

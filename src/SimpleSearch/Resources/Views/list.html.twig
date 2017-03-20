@@ -1,0 +1,13 @@
+{% spaceless %}
+    <html>
+        <head>
+        </head>
+        <body>
+            {%- if result|length > 0 -%}
+                Results (count = {{- result|length -}}) can't be displayed.
+            {%- else -%}
+                Results not found.
+            {%- endif -%}
+        </body>
+    </html>
+{% endspaceless %}
